@@ -9,6 +9,7 @@ Simple chatbot prompts which allow you to interact with various characters using
 
 Note: Performance is largely related to local memory bandwidth. Choose an appropriate number of threads to optimize performance. On most Intel or AMD-based systems, a thread count of 4 is ideal. On Apple Silicon architecture, the Pro or Max series do better with a number of threads equal to the number of Performance cores. Never increase the threadcount to include hyperthreaded or Efficiency cores - that would be very slow.
 
+Vicuna LLMs: Changing the "You:" in the sample dialog to "Human:" may give better results for the Vicuna series of models.
 
 Example dialog:
 
